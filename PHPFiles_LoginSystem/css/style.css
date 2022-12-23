@@ -1,0 +1,85 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container input[type="submit"],
+  .button-container input[type="button"] {
+    margin: 5px;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+    .registration-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 20px;
+    }
+    .registration-box h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    }
+    .registration-box input[type="email"],
+    .registration-box input[type="password"],
+    .registration-box input[type="username"],
+    .registration-box input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    }
+    .registration-box input[type="submit"] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+    }
+    .registration-box input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+   
+    .registration-box .error {
+    color: red;
+    }
+
+    .registration-box input[type="button"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+    }
+    .registration-box input[type="button"]:hover {
+        background-color: #45a049;
+    }

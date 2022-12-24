@@ -62,3 +62,10 @@ Demo Data:
 - E-Mail        yourmail@defconnet.work
 - Password      YourGreatPassword!1
 - Username      YourName
+
+
+=
+SQL Data:
+- Username: loginsystemtest
+- DBName: loginsystemtest
+- Password: !123ABCDEFGa

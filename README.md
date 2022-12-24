@@ -38,13 +38,18 @@ REQUIREMENTS
 INSTALLATION 
 1. Download everything as zip and extract it
 2. Upload the PHP Folder to your webserver.
+
 2.1 You only need the "API.php" for the unreal engine, if you wanna use the website, upload everything.
 2.2 Replace your Database Name, Username, Password and the Host (localhost) with your data in the "config.php"
+
 3. Create a database on your server and enter the login details (2.2) (and upload + import the included SQL File to your Database)
 4. Open the Unreal Engine Project with the Unreal Engine 5.1 (or higher)
+
 4.1 You need the VARest Plugin for your Unreal Engine Version
 4.2 Go to Content>Blueprints> gm_mainmenu (GameMode Blueprint)
+
 4.2.1 There you can find a red bubble with a Server URL Node. 
 4.2.2 Insert in this variable your API Connection URL - e.g. => https://exp.defcongaming.de/api.php OR https://yourdomain123xyz.de/api.php
+
 5. Play the Project in Editor or export the Project as exe (or for other platforms) - here you can create Accounts or login with your registered webaccount :)
 

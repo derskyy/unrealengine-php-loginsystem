@@ -58,6 +58,7 @@ INSTALLATION
 
 =
 Demo Data:
-E-Mail        yourmail@defconnet.work
-Password      YourGreatPassword!1
-Username      YourName
+
+- E-Mail        yourmail@defconnet.work
+- Password      YourGreatPassword!1
+- Username      YourName

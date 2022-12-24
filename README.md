@@ -55,3 +55,9 @@ INSTALLATION
 
 5. Play the Project in Editor or export the Project as exe (or for other platforms) - here you can create Accounts or login with your registered webaccount :)
 
+
+=
+Demo Data:
+E-Mail        yourmail@defconnet.work
+Password      YourGreatPassword!1
+Username      YourName
